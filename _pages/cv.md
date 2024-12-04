@@ -4,6 +4,6 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 1
-cv_pdf: research_cv_v2.pdf
+cv_pdf: research_cv_v7.pdf
 description: 
 ---
