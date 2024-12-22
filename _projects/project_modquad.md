@@ -21,9 +21,9 @@ related_publications: false
     </div>
     <div class="col-sm-8 mt-3 mt-md-0">
         <div class="col-sm mt-3 mt-md-0">
-            In this independent study, I applied deep reinforcement learning (deep RL) techniques to develop controllers for <a href="https://www.grasp.upenn.edu/projects/modquad-assembling-structures-in-midair/">ModQuad</a>, a special type of multi-rotor aerial vehicle consisting of modular flying structures. I deployed a model-free Proximal Policy Optimization (PPO) approach to training controllers for a zoo of different ModQuad structures (shown in the left figure). The trained controller can robustly stabilize ModQuad at fixed points from various starting conditions (orientations, velocities, etc.) and in the presence of external force disturbances.
+            In this independent study, I applied deep reinforcement learning (deep RL) techniques to develop controllers for <a href="https://www.grasp.upenn.edu/projects/modquad-assembling-structures-in-midair/">ModQuad</a>, a special type of multi-rotor aerial vehicle consisting of modular flying structures. I deployed a model-free Proximal Policy Optimization (PPO) approach to training controllers for a zoo of different ModQuad structures (shown in the left figure). The trained controller can robustly stabilize ModQuad at fixed points from various starting conditions and in the presence of external force disturbances.
 
-            Additionally, leveraging the trained RL controller, I devised a vector-field based approach to online path planning, which enabled the ModQuad to follow a series of waypoints without having to pre-compute the entire trajectory offline.
+            Additionally, leveraging the trained RL controller, I devised a artificial potential field based approach to online path planning, which enabled the ModQuad to follow a series of waypoints without having to pre-compute the entire trajectory offline.
         </div>
     </div>
 
@@ -42,7 +42,7 @@ related_publications: false
         <iframe width="420" height="250"
             src="https://www.youtube.com/embed/NzzA0ew_FCI?si=S7x6T0m1yf3uZnz9" allow="fullscreen;">
         </iframe>
-        Vector field based waypoints following, indicated by blue dots.
+        Artificial potential field based waypoints following for a 2x2 ModQuad. Waypoints indicated by blue dots. 
     </div>
 </div>
 
