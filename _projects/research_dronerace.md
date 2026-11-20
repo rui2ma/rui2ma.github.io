@@ -17,7 +17,6 @@ related_publications: false
     </div>
 </div>
 
-
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         <iframe width="420" height="250"
@@ -33,7 +32,6 @@ related_publications: false
     </div>
 </div>
 
-
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         Inspired by the curriculum training in <a href="https://arxiv.org/abs/2109.11978">Rudin et al.</a>, I aimed to develop a deep RL model for online quadcopter path planning by training it to incrementally fly through more and more gates. As a first step, I trained the quadcopter to fly through two consecutive gates in different placements (shown in the video on the right). 
@@ -43,5 +41,5 @@ related_publications: false
             src="https://www.youtube.com/embed/sbw99Xk9K5I?si=XoI7s-yPVgN3fSkH" allow="fullscreen" >
         </iframe>
     </div>
-    
+
 </div>

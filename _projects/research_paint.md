@@ -7,6 +7,7 @@ importance: 3
 category: research
 related_publications: false
 ---
+
 In Borg Lab at Georgia Institute of Technology, we envision to make robotic arm paint like [Sandro Botticelli](https://en.wikipedia.org/wiki/Sandro_Botticelli)!
 <div class="row justify-content-sm-center">
     <div class="col-sm-4 mt-3 mt-md-0">

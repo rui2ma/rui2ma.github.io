@@ -2,7 +2,7 @@
 layout: page
 title: Multi-rotor Aerial Vehicles Control
 description: Deep reinforcement learning based control for multi-rotor aerial vehicles.
-img: assets/img/project_modquad/cover.png    
+img: assets/img/project_modquad/cover.png
 importance: 1
 category: project
 related_publications: false
@@ -29,8 +29,6 @@ related_publications: false
 
 </div>
 
-
-
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
         <iframe width="420" height="250"
@@ -45,4 +43,3 @@ related_publications: false
         Artificial potential field based waypoints following for a 2x2 ModQuad. Waypoints indicated by blue dots. 
     </div>
 </div>
-
