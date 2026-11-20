@@ -227,6 +227,47 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+// About page: photo beside the intro text, text vertically centered on the photo.
+// Stacks (photo first) on narrow screens.
+.about-intro {
+  display: flex;
+  flex-direction: column-reverse; // phones: name + text first, photo below
+  margin-bottom: 1rem;
+
+  .profile {
+    margin: 1rem 0 0 0;
+  }
+}
+
+@media (min-width: 576px) {
+  .about-intro {
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 2rem;
+
+    &.profile-left {
+      flex-direction: row;
+    }
+
+    .profile {
+      flex: 0 0 20%;
+      width: 20%;
+      min-width: 180px; // keeps the email line from overflowing on mid-size screens
+      margin: 0;
+
+      .more-info {
+        font-size: 0.75rem;
+        white-space: nowrap;
+      }
+    }
+
+    .about-text {
+      flex: 1;
+      min-width: 0;
+    }
+  }
+}
+
 .post-description {
   margin-bottom: 2rem;
   font-size: 0.875rem;

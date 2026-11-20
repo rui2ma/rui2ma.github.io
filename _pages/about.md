@@ -8,16 +8,12 @@ profile:
   image: ruirui_profile.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>email: ruirui@seas.upenn.edu</p>
+    <p>email: rma75@gatech.edu</p>
 
 
-news: false # includes a list of news items
-selected_papers: false # includes a list of papers marked as "selected={true}"
+news: true # includes a list of news items
+selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-Hi there! I am a second year master's student in [The GRASP Lab](https://www.grasp.upenn.edu/) at [The University of Pennsylvania](https://www.upenn.edu/). Previously, I received my dual B.S. in Computer Engineering and Mathematics with a minor in Robotics from [Georgia Institute of Technology](https://www.gatech.edu/).
-
-My research interests focus on the distributed decision process of the multi-agent systems. Currently, I am writing my master's thesis on [multi-robot coverage](https://rui2ma.github.io/projects/research_coverage/) in unknown environment with sparse signals.
-
-Feel free to check out [research](https://rui2ma.github.io/research/) and [projects](https://rui2ma.github.io/projects/) page for  cool robotic demos and more :)
+Hi there! I am a PhD student in [The C3U Lab](https://sites.gatech.edu/c3uae/) at [Georgia Tech](https://www.gatech.edu/), where I'm advised by [Dr. Sarah H.Q. Li](https://ae.gatech.edu/directory/person/sarah-hq-li). I work on enabling robust and optimal interactions between autonomous systems under uncertain or adversarial behaviors, using the disciplines of optimization, control and game theory, with applications in robotics and operations research.
